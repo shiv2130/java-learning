@@ -17,7 +17,7 @@ public class loop {
         // }
         do { 
             System.out.println("Hello World!");
-            
+            i=i+1;
         } while (i<11);
     }
 }
