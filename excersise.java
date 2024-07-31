@@ -14,20 +14,24 @@ public class excersise {
     //      }
     //      System.out.println(sum);
     // }
-    public static void greater(int a, int b){
-        if(a>b){
-            System.out.println(a + " is greater than " + b);
-        }else{
-            System.out.println(b + " is greater than " + a);
-        }
+    // public static void greater(int a, int b){
+    //     if(a>b){
+    //         System.out.println(a + " is greater than " + b);
+    //     }else{
+    //         System.out.println(b + " is greater than " + a);
+    //     }
 
+    // }
+    public static void circum(int a){
+      
+        System.out.println(2*3.14*a);
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int m = sc.nextInt();
+        //int m = sc.nextInt();
         int n = sc.nextInt();
-        greater(m, n);
+        circum(n);
        
     }
 }
