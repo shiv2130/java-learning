@@ -22,16 +22,25 @@ public class excersise {
     //     }
 
     // }
-    public static void circum(int a){
+    // public static void circum(int a){
       
-        System.out.println(2*3.14*a);
+    //     System.out.println(2*3.14*a);
+    // }
+
+    public static void adult(int a){
+        if (a>=18) {
+            System.out.println("You are eligible to vote!");
+
+        }else{
+            System.out.println("Sorry! You are not eligible to vote!");
+        }
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //int m = sc.nextInt();
         int n = sc.nextInt();
-        circum(n);
+        adult(n);
        
     }
 }
