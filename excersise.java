@@ -1,15 +1,33 @@
 import java.util.Scanner;
 
 public class excersise {
-    public static void average(int a, int b, int c){
-        int avg = (a+b+c)/3;
-        System.out.println(avg);
+    // public static void average(int a){
+    // //     int avg = (a+b+c)/3;
+    // //     System.out.println(avg);
+    // //   
+    //      int sum =0;
+    //      for(int i=1; i<=a; i++){
+    //         if(i%2!=0){
+    //             sum=sum+i;
+
+    //         }
+    //      }
+    //      System.out.println(sum);
+    // }
+    public static void greater(int a, int b){
+        if(a>b){
+            System.out.println(a + " is greater than " + b);
+        }else{
+            System.out.println(b + " is greater than " + a);
+        }
+
     }
+
     public static void main(String[] args) {
-        Scanner sc =  new Scanner(System.in);
-        int d = sc.nextInt();
-        int e = sc.nextInt();
-        int f = sc.nextInt();
-        average(d, e, f);
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        int n = sc.nextInt();
+        greater(m, n);
+       
     }
 }
